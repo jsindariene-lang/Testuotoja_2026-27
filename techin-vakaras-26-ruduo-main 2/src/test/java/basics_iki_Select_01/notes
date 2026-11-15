@@ -1,0 +1,40 @@
+findElement iesko vieno (pirmo) elemento
+findElements iesko visu elementu
+
+Jei randa grazina:
+findElement - elementa -> Webelment
+findElements - sarasa(elementu) -> List<Webelement>
+
+Jei NEranda:
+findElement - NoSuchElementException
+findElements - tuscia sarasa.
+
+Click - elementui (ne sarasui)
+t.y. Elementui vieni veiksmai (click, getText etc)
+Sarasui - kiti (get, size)
+
+
+Elementu kurimas:
+WebElement searchInput =   driver.findElement(By.name("search"));
+       searchInput.clear();
+       searchInput.sendKeys("kitasnaujas");
+
+
+findElement (s), click, clear, sendKeys, getText
+TASK (viskas i viena testa):
+1.Isspausdint elemento (id=logo) teksta
+2.Ivesti i paieskos laukeli "abc"
+3.paspausti ieskoti (klase = fa-search)
+4.istrinti paieskos laukelio texta
+5.Ivesti i paieskos laukeli "iphone"
+6.paspausti ieskoti:randam elementa (id = search), poto jam randam button ir ji spaudziam
+7.Isspausdint krepselio info (id=cart)
+8. isspausdint kiek prekiu rado (class=product-thumb)
+9. isspausdint rastos preskes kaina
+10. atidaryti https://opencart.abstracta.us/index.php?route=account/register
+11. uzpildyti visus privalomus laukus
+12. paspausti continue
+
+
+
+
